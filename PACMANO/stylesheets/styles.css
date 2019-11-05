@@ -1,0 +1,70 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+body {
+  background-color: black;
+}
+
+body > div {
+  margin: 120px auto;
+  text-align: center;
+}
+
+
+
+.tile {
+  width: 50px;
+  height: 50px;
+
+  display: inline-block;
+  vertical-align: top;
+
+
+
+}
+
+
+
+.wall {
+  /* background-color: crimson;
+  border: 2px solid white;*/
+  background-image: url('../images/gui.jpeg');
+
+}
+
+
+.coin {
+  /*background-color: yellow;
+  border-radius: 50%;
+  border: 2px solid red;
+  transform: scale(.3);*/
+  background-image: url('../images/renato.jpeg');
+  
+
+}
+
+
+.pacman { /*automaticamente pra direita */
+
+  background-image: url('../images/deco.right.jpeg');
+  
+}
+
+.left {
+  background-image: url('../images/deco.left.jpeg');
+}
+
+.up {
+  background-image: url('../images/deco.up.jpeg');
+}
+
+.down {
+  background-image: url('../images/deco.down.jpeg');
+}
